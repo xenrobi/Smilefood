@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Fastfood);
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #2e4765;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Fastfood">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="Fastfood" class="cls-1">
+    <rect class="cls-5" width="500" height="500"/>
+    <path id="Path_727" data-name="Path 727" class="cls-2" d="M424.461,718.163c0-39.787-76.562-72.043-171.012-72.043S82.437,678.376,82.437,718.163,159,790.21,253.449,790.21,424.461,757.953,424.461,718.163Z" transform="translate(1.044 -598.458)"/>
+    <path id="Path_728" data-name="Path 728" class="cls-2" d="M90.124,686.917c-4.994,6.766-7.687,13.966-7.687,21.421,0,39.8,76.566,72.048,171.012,72.048s171.012-32.252,171.012-72.048c0-7.38-2.636-14.5-7.536-21.209" transform="translate(1.044 -492.57)"/>
+    <path id="Path_729" data-name="Path 729" class="cls-2" d="M445.263,722.828c5.383,7.372,8.277,15.2,8.277,23.307,0,43.721-84.124,79.161-187.9,79.161s-187.9-35.439-187.9-79.161c0-8.194,2.959-16.1,8.449-23.541" transform="translate(-11.15 -399.967)"/>
+    <path id="Path_730" data-name="Path 730" class="cls-2" d="M458.851,671.867l62.267,45.685S371.1,720.544,293.97,819.449c-77.13-98.9-227.145-101.9-227.145-101.9l62.267-45.685" transform="translate(-39.475 -531.633)"/>
+    <path id="Path_731" data-name="Path 731" class="cls-3" d="M477.334,746.323c-5.868,16.807-22.04,13.892-36.861,15.458a21.454,21.454,0,0,0-13.764,6.752c-11.908,13.3-19.34,39.652-34.243,43.662-18.326,4.9-43.452-24.49-62.155-22-18.75,2.449-35.426,37.328-54.3,37.328s-35.552-34.879-54.3-37.328c-18.7-2.49-43.829,26.9-62.155,22-14.9-4.011-22.332-30.358-34.24-43.662a21.453,21.453,0,0,0-13.764-6.752c-14.824-1.566-31,1.349-36.865-15.458-5.278-15.115,12.369-42.142,36.609-48.048,20.056,30.354,86.22,52.65,164.716,52.65s144.661-22.3,164.723-52.65C464.966,704.181,482.616,731.209,477.334,746.323Z" transform="translate(-21.518 -463.088)"/>
+    <g id="Group_839" data-name="Group 839" transform="translate(187.375 99.792)">
+      <line id="Line_3" data-name="Line 3" class="cls-4" x1="13.096" transform="translate(0 0)"/>
+      <line id="Line_4" data-name="Line 4" class="cls-4" x2="13.096" transform="translate(30.283 39.835)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-4" x1="13.096" transform="translate(60.57 0)"/>
+      <line id="Line_6" data-name="Line 6" class="cls-4" x2="13.101" transform="translate(90.853 39.835)"/>
+      <line id="Line_7" data-name="Line 7" class="cls-4" x1="13.096" transform="translate(121.14 0)"/>
+    </g>
+  </g>
+</svg>

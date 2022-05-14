@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Foward);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #020382;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Foward">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="Foward" class="cls-1">
+    <rect class="cls-4" width="500" height="500"/>
+    <g id="navigate_next_black_24dp" transform="translate(65 118)">
+      <path id="Path_919" data-name="Path 919" class="cls-2" d="M0,0H416V416H0Z"/>
+      <path id="Path_920" data-name="Path 920" class="cls-3" d="M35.163,6,8.61,32.553l86.252,86.44L8.61,205.433l26.553,26.553L148.157,118.993Z" transform="translate(129.277 13.5)"/>
+    </g>
+  </g>
+</svg>

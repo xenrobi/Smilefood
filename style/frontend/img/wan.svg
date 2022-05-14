@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Setting_Fileter);
+      }
+
+      .cls-2 {
+        fill: #2e4765;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Setting_Fileter">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="Setting_Fileter" data-name="Setting/Fileter" class="cls-1">
+    <rect class="cls-3" width="500" height="500"/>
+    <g id="rice" transform="translate(59 47)">
+      <g id="Group_1161" data-name="Group 1161">
+        <g id="Group_1160" data-name="Group 1160">
+          <path id="Path_922" data-name="Path 922" class="cls-2" d="M394.765,166.8h-13.13a59.655,59.655,0,0,0-17.177-31.044A59.364,59.364,0,0,0,321.5,61.351a59.364,59.364,0,0,0-74.406-42.959A59.522,59.522,0,0,0,204.134,0a63.865,63.865,0,0,0-44.442,18.424A59.365,59.365,0,0,0,85.179,61.351a59.364,59.364,0,0,0-42.958,74.406A59.66,59.66,0,0,0,25.044,166.8H11.914A11.915,11.915,0,0,0,0,178.716,202.862,202.862,0,0,0,95.315,350.49v20.446a35.784,35.784,0,0,0,35.743,35.743H275.62a35.784,35.784,0,0,0,35.743-35.743V350.49a202.862,202.862,0,0,0,95.315-171.773A11.915,11.915,0,0,0,394.765,166.8ZM63.143,149.343a11.915,11.915,0,0,0,3.99-14.887A35.6,35.6,0,0,1,96.507,83.576a11.915,11.915,0,0,0,10.9-10.9A35.6,35.6,0,0,1,158.284,43.3a11.913,11.913,0,0,0,14.887-3.99c6.413-9.261,18.856-15.485,30.963-15.485a35.78,35.78,0,0,1,29.374,15.486A11.914,11.914,0,0,0,248.4,43.3a35.6,35.6,0,0,1,50.878,29.374,11.915,11.915,0,0,0,10.9,10.9,35.6,35.6,0,0,1,29.375,50.879,11.915,11.915,0,0,0,3.99,14.887,35.959,35.959,0,0,1,13.4,17.459H49.742A35.959,35.959,0,0,1,63.143,149.343ZM287.535,370.936A11.928,11.928,0,0,1,275.62,382.85H131.059a11.928,11.928,0,0,1-11.914-11.914v-13.5h168.39Zm5.638-37.332H113.506A179.378,179.378,0,0,1,24.228,190.472H382.451A179.378,179.378,0,0,1,293.173,333.6Z"/>
+        </g>
+      </g>
+      <g id="Group_1163" data-name="Group 1163" transform="translate(254.028 98.937)">
+        <g id="Group_1162" data-name="Group 1162">
+          <circle id="Ellipse_148" data-name="Ellipse 148" class="cls-2" cx="1" cy="1" r="1" transform="translate(-0.028 0.063)"/>
+        </g>
+      </g>
+      <g id="Group_1165" data-name="Group 1165" transform="translate(305.089 124.444)">
+        <g id="Group_1164" data-name="Group 1164">
+          <circle id="Ellipse_149" data-name="Ellipse 149" class="cls-2" cx="1.5" cy="1.5" r="1.5" transform="translate(-0.089 -0.444)"/>
+        </g>
+      </g>
+      <g id="Group_1167" data-name="Group 1167" transform="translate(98.937 98.937)">
+        <g id="Group_1166" data-name="Group 1166">
+          <circle id="Ellipse_150" data-name="Ellipse 150" class="cls-2" cx="1" cy="1" r="1" transform="translate(0.063 0.063)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

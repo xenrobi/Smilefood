@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-French_Fries);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-French_Fries">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="French_Fries" data-name="French Fries" class="cls-1">
+    <rect class="cls-2" width="500" height="500"/>
+    <g id="Component_2_2" data-name="Component 2 – 2" transform="translate(29 59)">
+      <path id="Path_708" data-name="Path 708" class="cls-2" d="M326.221,142.384,238.345,10.466A19.9,19.9,0,0,0,221.693,2.02a19.594,19.594,0,0,0-16.652,8.647L117.165,142.384h-96.1A20.145,20.145,0,0,0,1,162.494a16.974,16.974,0,0,0,.8,5.43l50.96,186.415A39.915,39.915,0,0,0,91.283,383.7H352.1a40.334,40.334,0,0,0,38.722-29.36l50.96-186.415.6-5.43a20.145,20.145,0,0,0-20.063-20.109Zm-164.717,0L221.693,53.9l60.189,88.482ZM221.693,303.26a40.219,40.219,0,1,1,40.126-40.219A40.291,40.291,0,0,1,221.693,303.26Z" transform="translate(-1 -2.02)"/>
+    </g>
+  </g>
+</svg>

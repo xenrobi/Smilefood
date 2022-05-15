@@ -259,7 +259,7 @@ include 'config/koneksi.php';
                                         <input id="harga_satuan<?php echo $row['id_produk'];?>" type="hidden" name="harga_satuan<?php echo $row['id_produk'];?>" value="<?php echo $row['harga']; ?>">
                                         <td><input onchange="recalculatePrice(<?php echo $row['id_produk'];?>)" id="jumlah_produk<?php echo $row['id_produk'];?>" type="number" class="form-control" value="1" name="qty_<?php echo $row['id_produk']; ?>"></td>
                                         <td id="total_produk<?php echo $row['id_produk'];?>" ><?php echo number_format($_SESSION['qty_array'][$index]*$row['harga']); ?></td>
-                                        <td><textarea name="ket" rows="5" cols="26" placeholder="MASUKAN KETERANGAN CONTOH TUJUAN PENGANTARAN ATAU REQUEST KE PENJUAL"></textarea></td>
+                                        <td><textarea name="ket<?php echo $row['id_produk']; ?>" rows="5" cols="26" placeholder="MASUKAN KETERANGAN CONTOH TUJUAN PENGANTARAN ATAU REQUEST KE PENJUAL"></textarea></td>
 								</tr>
 								<?php
 								$index ++;

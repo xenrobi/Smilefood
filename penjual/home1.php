@@ -28,12 +28,12 @@ $jumlah_beli = mysqli_num_rows($data_beli);
     
 $ambil=$koneksi->query("SELECT * FROM pembelian_detail INNER JOIN pembelian ON
 pembelian_detail.id_pembelian = pembelian.id_pembelian INNER JOIN siswa ON pembelian.id_kelas = siswa.id_kelas  
-INNER JOIN produk ON pembelian_detail.id_produk = produk.id_produk AND nama_cafe='$id' ");
+INNER JOIN produk ON pembelian_detail.id_produk = produk.id_produk AND nama_cafe='$id' WHERE MONTH(tanggal) = MONTH(CURRENT_DATE) AND YEAR(tanggal) = YEAR(CURRENT_DATE)");
+$all = [];
   while($d=$ambil->fetch_assoc())
   {
       $all[]=$d;
   }
-  
 
     ?>
     

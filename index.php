@@ -68,8 +68,7 @@ if (!isset($_GET['cari'])) {
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
-            <a href="#"><img src="style/frontend/img/logo.jpg" alt="LOGO"></a>
-            <span>SMILE FOOD</span>
+            <a href="#"><img src="style/frontend/img/logo.png" alt="LOGO"></a>
         </div>
         <div class="humberger__menu__cart">
             <ul>
@@ -81,7 +80,7 @@ if (!isset($_GET['cari'])) {
 
             <div class="header__top__right__auth">
             <?php if  (isset($_SESSION["siswa"])) :?>
-                               <a href="logout.php"><i class="fa fa-user"></i> Logout</a>
+         <a href="logout.php"><i class="fa fa-user"></i> Logout</a>
            <?php else: ?>
              <a href="login.php"><i class="fa fa-user"></i> Login</a>
              <?php  endif ?>
@@ -125,7 +124,7 @@ if (!isset($_GET['cari'])) {
             <div class="row">
                 <div class="col-lg-4">
                     <div class="header__logo">
-                        <a href="index.php"><img src="style/frontend/img/logo.jpg" alt="" widht="72px" height="100px"></a>
+                        <a href="index.php"><img src="style/frontend/img/logo.png" alt="" widht="72px" height="100px"></a>
                         <span>SMILEFOOD</span>
                     </div>
                 </div>
@@ -196,8 +195,7 @@ if (!isset($_GET['cari'])) {
                 <div class="col-lg-9">
                     <div class="hero__search">
                       <div class="hero__search__form">
-                            <form action="index.php?halaman=cari&cari<?php echo $_GET[cari]; ?>" method="GET">
-                               
+                            <form action="index.php?halaman=cari" method="GET">
                                 <input type="text" placeholder="Masukkan Nama Makanan" name="cari">
                                 <button type="submit" class="site-btn">Cari</button>
                             </form>

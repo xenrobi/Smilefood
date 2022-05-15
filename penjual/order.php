@@ -55,7 +55,7 @@ if(isset($_POST['up1'])){
               <table class="table table-head-fixed text-nowrap ">
               <div><?php if(isset($message)) { echo $message; } ?>
               <button type="submit" class="btn btn-warning" name="up">SEDANG DIMASAK</button>
-              <button type="submit" class="btn btn-success" name="up">SUDAH DI ANTAR</button>
+              <button type="submit" class="btn btn-success" name="up1">SUDAH DI ANTAR</button>
                   <thead>
               <tr>
             <th></th>

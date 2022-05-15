@@ -165,7 +165,7 @@ include 'config/koneksi.php';
                 <div class="col-lg-9">
                     <div class="hero__search">
                         <div class="hero__search__form">
-                        <form action="index.php?halaman=cari&cari<?php echo $_GET[cari]; ?>" method="GET">
+                        <form action="index.php?halaman=cari" method="GET">
                                
                                <input type="text" placeholder="Masukkan Nama Makanan" name="cari">
                                <button type="submit" class="site-btn">Cari</button>

@@ -44,7 +44,9 @@ include 'config/koneksi.php';
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
+        <div class="humberger__menu__logo">
+            <a href="#"><img src="style/frontend/img/logo.png" alt="LOGO"></a>
+        </div>
         </div>
         <div class="humberger__menu__cart">
             <ul>
@@ -112,7 +114,9 @@ include 'config/koneksi.php';
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="style/frontend/img/" alt=""></a>
+                        <a href="index.php"><img src="style/frontend/img/logo.png" alt="" widht="72px" height="100px"></a>
+                        <span>SMILEFOOD</span>
+                
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -172,7 +176,7 @@ include 'config/koneksi.php';
                 <div class="col-lg-9">
                     <div class="hero__search">
                         <div class="hero__search__form">
-                        <form action="index.php?halaman=cari&cari<?php echo $_GET[cari]; ?>" method="GET">
+                        <form action="index.php?halaman=cari" method="GET">
                                
                                <input type="text" placeholder="Masukkan Nama Makanan" name="cari">
                                <button type="submit" class="site-btn">Cari</button>
@@ -237,6 +241,7 @@ include 'config/koneksi.php';
 					<th>HARGA</th>
 					<th>JUMLAH</th>
 					<th>SUBTOTAL</th>
+                    <th>KETERANGAN</th>
 				</thead>
 				<tbody>
 
@@ -259,7 +264,7 @@ include 'config/koneksi.php';
                                         <input id="harga_satuan<?php echo $row['id_produk'];?>" type="hidden" name="harga_satuan<?php echo $row['id_produk'];?>" value="<?php echo $row['harga']; ?>">
                                         <td><input onchange="recalculatePrice(<?php echo $row['id_produk'];?>)" id="jumlah_produk<?php echo $row['id_produk'];?>" type="number" class="form-control" value="1" name="qty_<?php echo $row['id_produk']; ?>"></td>
                                         <td id="total_produk<?php echo $row['id_produk'];?>" ><?php echo number_format($_SESSION['qty_array'][$index]*$row['harga']); ?></td>
-                                        <td><textarea name="ket<?php echo $row['id_produk']; ?>" rows="5" cols="26" placeholder="MASUKAN KETERANGAN CONTOH TUJUAN PENGANTARAN ATAU REQUEST KE PENJUAL"></textarea></td>
+                                        <td><textarea name="ket<?php echo $row['id_produk']; ?>" rows="4" cols="26" placeholder="MASUKAN KETERANGAN CONTOH TUJUAN PENGANTARAN ATAU REQUEST KE PENJUAL"></textarea></td>
 								</tr>
 								<?php
 								$index ++;

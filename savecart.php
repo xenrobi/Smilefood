@@ -23,7 +23,7 @@ include 'config/koneksi.php';
 			$id_kelas=$_SESSION["id"];
 			$tgl=date("Y-m-d H:i:s");
 			$total = $_POST['harga_satuan'. $idp]  * $_POST["qty_" . $idp];
-			$ket=$_POST['ket'];
+			$ket=$_POST['ket'. $idp];
 
 			$koneksi->query("INSERT INTO pembelian(id_kelas,tanggal,total,ket)
 			VALUES ('$id_kelas','$tgl','$total','$ket')")or die(mysqli_error($koneksi));

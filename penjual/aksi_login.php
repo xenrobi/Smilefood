@@ -5,8 +5,9 @@ $error='';
 include "../config/koneksi.php";
 if(isset($_POST['submit']))
 {				
-	$username	= $_POST['username'];
-    $password	= $_POST['password'];
+    // $username    = mysqli_real_escape_string($koneksi, $_POST['username']);
+	$username	= mysqli_real_escape_string($koneksi, $_POST['username']);
+    $password	= mysqli_real_escape_string($koneksi, $_POST['password']);
     
 
 //penjual
